@@ -31,7 +31,6 @@ class MegjelenitSor {
         });
         this.torolElem.on("click", () => {
             this.sorElem.remove();
-
             this.#esemenyTrigger();
         });
     }
